@@ -1,8 +1,37 @@
+.navbar-dark .navbar-brand {
+    color: #6BD0FF;
+}
+
+.btn-success {
+    background-color: #559000 !important;
+    border-color: #559000 !important;
+}
+
+.bg-primary {
+    background-color: #3a3a40 !important;
+}
+
 .navbar-brand-logo {
   width: 25px;
   height: 25px;
   margin-left: 15px;
   margin-right: 15px;
+}
+
+h1 {
+  font-size: 2.35rem !important;
+}
+
+h2 {
+  font-size: 2.0rem !important;
+}
+
+h3 {
+  font-size: 1.9rem !important;
+}
+
+h4 {
+  font-size: 1.5rem !important;
 }
 
 h1, h2, h3 {

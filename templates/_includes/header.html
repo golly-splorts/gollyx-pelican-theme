@@ -6,23 +6,24 @@
     <meta charset="utf-8" />
 
     <script>
-var baseApiUrl = '{{ GOLLY_BASE_API }}';
-var baseUIUrl  = '{{ GOLLY_BASE_UI  }}';
+var baseUIUrl  = '{{ GOLLYX_BASE_UI  }}';
+var baseApiUrl = '{{ GOLLYX_BASE_API }}';
+var mapsApiUrl = '{{ GOLLYX_MAPS_API }}';
     </script>
 
     <!--
     CSS styles
     -->
     <link href="{{ SITEURL }}/theme/css/cyborg.css" rel="stylesheet" type="text/css">
-    <link href="{{ SITEURL }}/theme/css/custom.css" rel="stylesheet" type="text/css">
+    <link href="{{ SITEURL }}/theme/css/cyborg_custom.css" rel="stylesheet" type="text/css">
     <link href="{{ SITEURL }}/theme/css/fa.css"     rel="stylesheet" type="text/css"/>
 
     <link rel="icon" type="image/png" href="{{ SITEURL }}/theme/img/golly-favicon.png">
 
     <!--
         Versions:
-        golly-pelican: {{ GOLLY_PELICAN_VERSION }}
-        golly-pelican-theme: 18.0.0.dev0
+        golly-pelican: {{ GOLLYX_PELICAN_VERSION }}
+        golly-pelican-theme: 20.0.0.dev0
     -->
 
     {% endblock head %}
