@@ -1,11 +1,11 @@
 .navbar-dark .navbar-brand {
-    color: #6BD0FF;
+  color: #6BD0FF;
 }
 
 /* navbar color */
 .navbar-dark .navbar-brand,
 .navbar-dark .navbar-brand:hover {
-    color: #6BD0FF !important;
+  color: #6BD0FF !important;
 }
 
 /* navbar logo padding */
@@ -87,6 +87,8 @@ body {
   padding-top: 70px;
   /* no navbar: */
   /*padding-top: 20px;*/
+  /* fix too-tiny fonts */
+  font-size: 1rem !important;
 }
 
 .card {
