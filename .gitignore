@@ -3,3 +3,7 @@ __pycache__
 *.pyc
 .DS_Store
 memo
+.claude
+gollyx-pelican-theme-template
+gollyx-star-pelican-theme-template
+gollyx-python
